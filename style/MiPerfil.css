@@ -1,0 +1,52 @@
+/* style/MiPerfil.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+        /* Estilos adicionales específicos para esta página */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .mw-body-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .thumb {
+            float: right;
+            margin: 0 0 1em 1em;
+        }
+        .thumbcaption {
+            font-style: italic;
+            text-align: center;
+        }
+        blockquote {
+            font-style: italic;
+            margin: 1em 0;
+            padding-left: 1em;
+            border-left: 3px solid #ccc;
+        }
+#content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+

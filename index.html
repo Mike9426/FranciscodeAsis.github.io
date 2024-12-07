@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Signin</title>
+  <link rel="stylesheet" href="Longin.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <style>
+  </style>
+</head>
+<body>
+<div class="title-logo-container">
+  <h1>INSTITUTO FRANCISCO DE ASÍS</h1>
+  <img src="logo.png" alt="Logo" width="80" height="80">
+</div>
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">REGÍSTRATE</a></li>
+          <li><a href="#login"  role="tab" data-toggle="tab">INICIAR SESIÓN</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center"> REGÍSTRATE GRATIS</h2>
+            <form id="signup-form" action="Home.html">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label>Nombre<span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label> Apellidos <span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label> Correo<span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Teléfono<span class="req">*</span> </label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Contraseña<span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block">
+                  REGÍSTRATE
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade in" id="login">
+            <h2 class="text-uppercase text-center"> Iniciar Sesión</h2>
+            <form id="login-form" action="Home.html">
+              <div class="form-group">
+                <label> Correo<span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Contraseña<span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block">
+                  Iniciar Sesión
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container --> 
+</div>
+<footer class="footer-04">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+        <h2 class="footer-heading"><a href="#" class="logo">INSTITUTO FRANCISCO ASIS</a></h2>
+        <p>Comprometidos con la excelencia en la educación y la formación integral de nuestros estudiantes.</p>
+        <a href="#">Leer más <span class="ion-ios-arrow-round-forward"></span></a>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+        <h2 class="footer-heading">Programas</h2>
+        <ul class="list-unstyled">
+          <li><a href="#" class="py-1 d-block">Pregrado</a></li>
+          <li><a href="#" class="py-1 d-block">Posgrado</a></li>
+          <li><a href="#" class="py-1 d-block">Educación Continua</a></li>
+          <li><a href="#" class="py-1 d-block">Investigación</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+        <h2 class="footer-heading">Nube de Etiquetas</h2>
+        <div class="tagcloud">
+          <a href="#" class="tag-cloud-link">Educación</a>
+          <a href="#" class="tag-cloud-link">Ciencia</a>
+          <a href="#" class="tag-cloud-link">Tecnología</a>
+          <a href="#" class="tag-cloud-link">Innovación</a>
+          <a href="#" class="tag-cloud-link">Investigación</a>
+          <a href="#" class="tag-cloud-link">Cultura</a>
+          <a href="#" class="tag-cloud-link">Deportes</a>
+          <a href="#" class="tag-cloud-link">Arte</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+        <h2 class="footer-heading">Suscríbete</h2>
+        <form action="#" class="subscribe-form">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control rounded-left" placeholder="Ingresa tu correo">
+            <button type="submit" class="form-control submit rounded-right"><span class="sr-only">Enviar</span><i class="ion-ios-send"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="w-100 mt-5 border-top py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8">
+          <p class="copyright">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este sitio está diseñado con <i class="ion-ios-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">TeamCode.com</a>
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-md-right">
+          <p class="mb-0 list-unstyled">
+            <a class="mr-md-3" href="#">Términos</a>
+            <a class="mr-md-3" href="#">Privacidad</a>
+            <a class="mr-md-3" href="#">Cumplimiento</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

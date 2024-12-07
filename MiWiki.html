@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Wiki Mejorada</title>
+    <link rel="stylesheet" href="style/MiWiki.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Wiki</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Acerca.html" class="active">Acerca de</a></li>
+                <li><a href="Miperfil.html">Perfil</a></li>
+                <li><a href="MiWiki.html">Mi Wiki</a></li>
+                <li><a href="Contactos.html">Contáctanos</a></li>
+              </ul>
+        </nav>
+    </header>
+    
+    <main id="content">
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Este es el punto de partida de nuestra wiki. Aquí encontrarás información relevante y enlaces a las distintas secciones.</p>
+        </section>
+        
+        <section id="seccion1">
+            <h2>Sección 1</h2>
+            <p>Esta es la primera sección de nuestra wiki. Aquí puedes añadir información detallada sobre un tema específico.</p>
+            <ul>
+                <li>Álgebra</li>
+                <li>Geometría</li>
+                <li>Trigonometría</li>
+            </ul>
+            <img src="img/Matematicas.jpg" alt="Descripción de la imagen">
+        </section>
+        
+        <section id="seccion2">
+            <h2>Sección 2</h2>
+            <p>Esta es la segunda sección de nuestra wiki. Aquí puedes añadir más información y recursos adicionales.</p>
+            <blockquote>
+                <p>Para más información por favor ingresa tus credenciales y pon tu comentario </p>
+            </blockquote>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+
+</body>
+</html>
